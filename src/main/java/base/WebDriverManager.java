@@ -10,14 +10,12 @@ public class WebDriverManager {
         dr.set(driver);
     }
 
-
     public static WebDriver getDriver(){
          return dr.get();
     }
 
-
-     public static void unload(){
+    public static void unload(){
          dr.remove();
-     }
+    }
 
 }
