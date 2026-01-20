@@ -1,12 +1,12 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+﻿<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="OrangeHRM_testSuite">
+<suite name="OrangeHRM_testSuite" parallel="tests" thread-count="3">
 
     <test name="ProfilePageTest" verbose="1" >
         <classes>
-            <class name="tests.Test_ProfilePage"/>
+<!--            <class name="tests.Test_ProfilePage"/>-->
 <!--            <class name="tests.Test_DashboardPage"/>-->
-<!--            <class name="tests.Test_LoginPage"/>-->
+            <class name="tests.Test_LoginPage"/>
         </classes>
     </test>
 
