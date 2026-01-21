@@ -89,24 +89,6 @@ public class Test_ProfilePage extends BaseTestThreadManager {
 
     }
 
-    @Test
-    public void verifyLoginTestInvalid5(){
-        login = new LoginPage();
-        String expUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";
-        String actUrl = login.verifyLoginWithInvalidDetails();
 
-        Assert.assertEquals(actUrl, expUrl);
-
-    }
-
-    @Test
-    public void verifyLoginTestValid5(){
-        login = new LoginPage();
-        String expUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";
-        String actUrl = login.verifyLoginWithValidDetails();
-
-        Assert.assertEquals(actUrl, expUrl);
-
-    }
 }
 
