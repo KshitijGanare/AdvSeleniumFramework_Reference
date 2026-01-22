@@ -2,7 +2,7 @@ package tests;
 
 public class CommonClass {
 
-    public void commonFunction1(){
+    public void FunctionIntellij(){
         System.out.println("Changed in intellij!");
 
     }
