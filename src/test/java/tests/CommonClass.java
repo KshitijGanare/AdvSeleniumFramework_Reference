@@ -2,7 +2,8 @@ package tests;
 
 public class CommonClass {
 
-    public void commonFunction1(){
+    public void FunctionEclipse(){
+    	
         System.out.println("Changed in Eclipse!");
 
     }
